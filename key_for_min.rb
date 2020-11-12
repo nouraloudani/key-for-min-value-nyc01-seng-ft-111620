@@ -4,7 +4,6 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
     nil
-  else
   name_hash = name_hash.to_a
   d_value = 10000000
   d_key = 0
